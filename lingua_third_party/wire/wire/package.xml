@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package>
+  <name>wire</name>
+  <version>0.0.1</version>
+  <description>The wire meta package is implements a framework that 
+     generates and maintains one consistent world state estimate based 
+     on object detections. It solves the data association problem by 
+     maintaining multiple hypotheses and facilitates tracking of various
+     object attributes. The state estimators used for estimation and the
+     probabilistic models used for association can be configured.
+  </description>
+
+  <maintainer email="j.elfring@tue.nl">Jos Elfring</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Wrapper around matrix library -->
+  <run_depend>armadillo_matrix</run_depend>
+
+  <!-- Library for probabilistic data and computations -->
+  <run_depend>problib</run_depend>
+
+  <!-- Wire core -->
+  <run_depend>wire_core</run_depend>
+
+  <!-- World messages for interacting with the world model -->
+  <run_depend>wire_msgs</run_depend>
+  
+  <!-- Wire state estimators -->
+  <run_depend>wire_state_estimators</run_depend>
+  
+  <!-- Wire visualization -->
+  <run_depend>wire_viz</run_depend>
+  
+  <!-- Wire tutorials -->
+  <run_depend>wire_tutorials</run_depend>
+
+  <export>
+    <metapackage />
+  </export>
+
+</package>
+

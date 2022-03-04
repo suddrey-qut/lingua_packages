@@ -1,0 +1,33 @@
+[submodule "lingua"]
+	path = lingua
+	url = https://github.com/suddrey-qut/lingua.git
+[submodule "lingua_kb"]
+	path = lingua_kb
+	url = https://github.com/suddrey-qut/lingua_kb.git
+[submodule "lingua_pddl"]
+	path = lingua_pddl
+	url = https://github.com/suddrey-qut/lingua_pddl
+[submodule "lingua_tests"]
+	path = lingua_tests
+	url = https://github.com/suddrey-qut/lingua_tests.git
+[submodule "lingua_world"]
+	path = lingua_world
+	url = https://github.com/suddrey-qut/lingua_world.git
+[submodule "lingua_third_party/openccg_ros"]
+	path = lingua_third_party/openccg_ros
+	url = git@github.com:suddrey-qut/openccg_ros.git
+[submodule "lingua_third_party/depth_tools"]
+	path = lingua_third_party/depth_tools
+	url = https://bitbucket.org/acrv/depth_tools.git
+[submodule "lingua_third_party/rv_face_tracking"]
+	path = lingua_third_party/rv_face_tracking
+	url = https://suddrey_qut@bitbucket.org/acrv/rv_face_tracking.git
+[submodule "lingua_third_party/ros_numpy"]
+	path = lingua_third_party/ros_numpy
+	url = https://github.com/eric-wieser/ros_numpy.git
+[submodule "lingua_third_party/rv_leaves"]
+	path = lingua_third_party/rv_leaves
+	url = https://bitbucket.org/acrv/rv_leaves.git
+[submodule "lingua_third_party/rv_trees"]
+	path = lingua_third_party/rv_trees
+	url = https://github.com/RoboticVisionOrg/rv_trees.git

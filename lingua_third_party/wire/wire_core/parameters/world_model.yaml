@@ -1,0 +1,5 @@
+world_model_frame: /panda_link0
+output_frame: /panda_link0
+
+evidence_topics:
+ - /world_evidence

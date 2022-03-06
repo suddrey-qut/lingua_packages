@@ -15,7 +15,7 @@
 	url = https://github.com/suddrey-qut/lingua_world.git
 [submodule "lingua_third_party/openccg_ros"]
 	path = lingua_third_party/openccg_ros
-	url = git@github.com:suddrey-qut/openccg_ros.git
+	url = https://github.com/suddrey-qut/openccg_ros.git
 [submodule "lingua_third_party/depth_tools"]
 	path = lingua_third_party/depth_tools
 	url = https://bitbucket.org/acrv/depth_tools.git
